@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url(images/helvetica-255-webfont/helvetica-light-587ebe5a59211.woff);
+
+}
+
+html {
+  /* font-size: 62.5%; */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
+  font-family: 'Helvetica';
+}
+
+img, svg, video, canvas, audio, iframe, embed, object {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+}
+
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}

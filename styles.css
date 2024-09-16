@@ -1,0 +1,61 @@
+.container {
+  max-width: 360px;
+  margin: 70px auto;
+}
+
+form {
+  width: 100%;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #dddfe2;
+  background-color: #fff;
+}
+
+input:focus {
+  outline: none;
+}
+
+.login {
+  width: 100%;
+  border-radius: 20px;
+  padding: 2px;
+  border: none;
+  background-color: #166fe5;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login a {
+  color: #fff;
+}
+
+.forgot {
+  text-align: center;
+  color: #000000c5;
+  display: block;
+}
+
+.new_acc {
+  width: 100%;
+  margin-top: 100px;
+  border: 1px solid #166fe5;
+  color: #166fe5;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
