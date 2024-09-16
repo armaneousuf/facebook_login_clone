@@ -1,6 +1,7 @@
 .container {
   max-width: 360px;
   margin: 70px auto;
+  background-color: #ffffff;
 }
 
 form {
@@ -50,6 +51,12 @@ input:focus {
   cursor: pointer;
   border-radius: 20px;
   background-color: transparent;
+}
+
+.new_acc:hover {
+  background-color: #166fe5;
+  color: #fff;
+  transition: 1s ease-in-out;
 }
 
 ul {
